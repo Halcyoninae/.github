@@ -9,7 +9,7 @@ by Jack Meng.
 [!] Naming
   Since Halcyoninae is a 
   a subfamily, and Halcyon
-  is a genus under it; this 
+  is a genus under it, this 
   means that every project
   that contributes to the
   main program will be a 
