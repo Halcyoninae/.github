@@ -28,42 +28,31 @@ html {
 }
 
 body {
-  text-align: center;
-  height: calc(100vh - 8em);
   background-color: rgba(33,
       37,
-      43, 0.8);
+      43,1);
   color: #89EDA4;
-  align-content: center;
-  align-items: center;
   display: flex;
   margin: 0;
   align-self: center;
   font-family: 'Rancho';
-  background-image: url("../assets/img/my_bg_blurred.png");
-  background-repeat: no-repeat;
-  background-size:contain;
   width: 100%;
   height: 100%;
   background-position: center;
 }
-
 
 .master_ {
   width: 100%;
   height: 100%;
   background-color: rgba(33,
       37,
-      43, 0.8);
+      43, 1);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  align-content: center;
 }
 
 .key_animation h1 {
+  text-align: center;
   overflow: hidden;
   border-right: 2.5px solid transparent;
   white-space: initial;
@@ -71,23 +60,24 @@ body {
   margin: 0 auto;
   letter-spacing: 4px;
   animation:
-    blinker 0.45s steps(23);
+    blinker 1.3s steps(45);
 }
 
 .key_animation_sub h2 {
+  text-align: center;
   color: #FFFF;
   overflow: hidden;
   border-right: 1.5px solid transparent;
   white-space: nowrap;
   cursor: pointer;
-  margin: 1 auto;
+  margin: 0 auto;
   /*override*/
   letter-spacing: 2.5px;
   opacity: 0;
   animation:
-    0.8s show_element_animation forwards,
-    blinker 0.45s steps(45);
-  animation-delay: 450ms;
+    0.8s show_element_animation steps(45) forwards,
+    blinker 1.55s steps(45);
+  animation-delay: 250ms;
 }
 
 @keyframes show_element_animation {
@@ -113,6 +103,17 @@ body {
   to {
     border-color: transparent
   }
+}
+
+hr {
+  opacity: 0;
+}
+
+.text-arena {
+  align-self:center;
+  font-size: 0.85em;
+  white-space: pre-wrap;
+  font-family: 'Space Mono', monospace;
 }
 
 a {
