@@ -43,6 +43,7 @@ function requestURLContent(httpURL) {
 
 /**
  * Scrolls the page to the top
+ * Not really used
  */
 function windowToTop() {
   document.body.scrollTop = 0;
