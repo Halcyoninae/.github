@@ -41,6 +41,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   word-wrap: break-word;
+  overflow: hidden
   -ms-word-wrap: break-word;
   overflow-wrap: break-word;
 }
