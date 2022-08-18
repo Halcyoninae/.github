@@ -40,6 +40,9 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .master_ {
@@ -115,6 +118,9 @@ hr {
   font-size: 0.85em;
   white-space: pre-wrap;
   font-family: 'Space Mono', monospace;
+  word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 a {
