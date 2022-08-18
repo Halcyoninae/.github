@@ -30,9 +30,6 @@ html {
 body {
   text-align: center;
   height: calc(100vh - 8em);
-  background-color: rgba(33,
-      37,
-      43, 0.8);
   color: #89EDA4;
   align-content: center;
   align-items: center;
