@@ -43,10 +43,6 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-position: center;
-  word-wrap: break-word;
-  -ms-word-wrap: break-word;
-  overflow-wrap:break-word;
 }
 
 
@@ -70,6 +66,7 @@ body {
   white-space: initial;
   cursor: pointer;
   margin: 0 auto;
+  overflow: hidden;
   letter-spacing: 4px;
   animation:
     blinker 0.45s steps(23);
@@ -82,6 +79,7 @@ body {
   white-space: nowrap;
   cursor: pointer;
   margin: 1 auto;
+  overflow: hidden;
   /*override*/
   letter-spacing: 2.5px;
   opacity: 0;
