@@ -42,7 +42,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <link rel="stylesheet" href="../styles/sub_page.css" />
 </head>
 <script type="text/javascript" src="../scripts/main.js"></script>
+
 <body>
+
   <div class="master_">
     <div class="key_animation">
       <a href="../index">
@@ -58,18 +60,20 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <script>
       document.getElementById("text-area").append(requestURLContent("https://raw.githubusercontent.com/Halcyoninae/.github/main/assets/text/program.txt"));
     </script>
+
+    <button id="btn" onclick="windowToTop()" title="Top of page">~ Top</button>
+    <script>
+      var btn = document.getElementById("btn");
+      window.onscroll = function () {
+        if (window.pageYOffset > 100 || document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      }
+    </script>
   </div>
+
 </body>
 
-<button id="btn" onclick="windowToTop()" title="Top of page">~ Top</button>
-<script>
-  var btn = document.getElementById("btn");
-  window.onscroll = function() {
-    if (window.pageYOffset > 100 || document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
-  }
-</script>
 </html>
