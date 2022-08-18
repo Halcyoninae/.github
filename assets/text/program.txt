@@ -6,7 +6,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [!] Alert: This is a WIP (Work In Progress)!
   - Almost everything about this project as a
-    whole is WIP >3<
+    the whole is WIP >3<
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ----------------------------------------------
 
@@ -14,21 +14,21 @@
 <
   Halcyon is a music player designed to be
   lightweight & intuitive for the average
-  user, while being feature rich to an avid
+  user, while being feature-rich to an avid
   user.
   Although it is written in Java & bridged
   to native with C/C++, it features the 
-  utmost optimization pedantics that can be
+  utmost optimization pedantic that can be
   either set by the user or automatically
   guessed by the program.
   
-  Currently it supports playback of the
+  Currently, it supports playback of the
   following file types:
     1. MP3 (MP2 - MP1)
     2. OGG (Vorbis, OPUS, Theora)
     3. AIFF (Native)
     4. AU (Native)
-   With partial supports for:
+   With partial support for:
     1. AIFC (Native)
     2. FLAC (Partial Native - OGG)
 >
@@ -49,8 +49,8 @@
   of memory on average, however the runtime
   will alloc more memory just in case, so 
   actual numbers may differ. It is your 
-  jursidiction to decide what amount is best,
-  however it is best to not to go under the 
+  jurisdiction to decide what amount is best,
+  however, it is best to not to go under the 
   following memory numbers.
   
   > Runtime Specifications <
@@ -62,8 +62,8 @@
       4. HotSpot
       5. Amazon Corretto
     - Runtime min. heap size: 47185920
-    - Runtime Min. Threads: 28 (HARD BOUND)
-    - Runtime Max. Threads: 20 (HARD BOUND)
+    - Runtime Min. Threads: 28 (HARDBOUND)
+    - Runtime Max. Threads: 20 (HARDBOUND)
   
   > Client System Specifications <
     - Host CPU: x86-64 or x86
@@ -94,3 +94,4 @@
      Copyright (C) Jack Meng (exoad) 2021
 >
 ==============================================
+
