@@ -51,7 +51,7 @@ body {
   height: 100%;
   background-color: rgba(33,
       37,
-      43, 0.8);
+      43, 0.75);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .key_animation h1 {
-  overflow: hidden;
+  overflow:auto;
   border-right: 2.5px solid transparent;
   white-space: initial;
   cursor: pointer;
@@ -73,7 +73,7 @@ body {
 
 .key_animation_sub h2 {
   color: #FFFF;
-  overflow: hidden;
+  overflow: auto;
   border-right: 1.5px solid transparent;
   white-space: nowrap;
   cursor: pointer;
