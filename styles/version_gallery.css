@@ -20,7 +20,132 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+@import url(https://fonts.googleapis.com/css?family=Rancho);
 @import url(https://fonts.googleapis.com/css?family=Space+Mono);
+
+html {
+  min-height: 100%;
+}
+
+body {
+  color: #89EDA4;
+  display: flex;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  font-family: 'Rancho';
+  background-image: url("../assets/img/my_bg_blurred.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.master_ {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33,
+      37,
+      43, 0.75);
+  flex-direction: column;
+}
+
+.key_animation h1 {
+  text-align: center;
+  overflow: hidden;
+  border-right: 2.5px solid transparent;
+  white-space: initial;
+  cursor: pointer;
+  margin: 0 auto;
+  letter-spacing: 4px;
+  animation:
+    blinker 1.3s steps(45);
+}
+
+.key_animation_sub h2 {
+  text-align: center;
+  color: #FFFF;
+  overflow: hidden;
+  border-right: 1.5px solid transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0 auto;
+  /*override*/
+  letter-spacing: 2.5px;
+  opacity: 0;
+  animation:
+    0.8s show_element_animation steps(45) forwards,
+    blinker 1.55s steps(45);
+  animation-delay: 250ms;
+}
+
+@keyframes show_element_animation {
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes blinker {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blinker-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+}
+
+hr {
+  opacity: 0;
+}
+
+footer {
+  height: 100%;
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+}
+
+.text-arena {
+  align-self: center;
+  font-size: 0.85em;
+  white-space: pre-wrap;
+  font-family: 'Space Mono', monospace;
+}
+
+a {
+  color: #89EDA4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #89EDA4;
+  text-decoration: none;
+}
+
+.header_text {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+p {
+  font-family: 'Space Mono';
+  font-size: 0.75em;
+  color: #89EDA4;
+  text-align: center;
+}
 
 .logo_container {
   align-self: center;
@@ -38,20 +163,10 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   justify-content: center;
 }
 
-h2 {
-  text-align: center;
-  align-self: center;
-}
-
 .header_container {
-  font-family: 'Space Mono', monospace;
-}
-
-p {
-  font-family: 'Space Mono';
-  font-size: 0.75em;
-  color: #89EDA4;
+  font-size: 1.2em;
   text-align: center;
+  font-family: 'Space Mono', monospace;
 }
 
 .logo_img {
