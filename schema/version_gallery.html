@@ -36,12 +36,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Halcyon ~ LOGO</title>
+  <title>Halcyon ~ Gallery</title>
   <link rel="icon" type="image/x-icon" href="../favicon.ico" />
   <link rel="stylesheet" href="../styles/readme.css" />
   <link rel="stylesheet" href="../styles/sub_page.css" />
   <link rel="stylesheet" href="../styles/version_gallery.css" />
 </head>
+<script type="text/javascript" src="../scripts/main.js"></script>
 
 <body>
   <div class="master_">
@@ -51,12 +52,49 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       </a>
     </div>
     <div class="key_animation_sub">
-      <h2 class="sub_header_text">The&nbsp;Logo</h2>
+      <h2 class="sub_header_text">Gallery</h2>
     </div>
+    <hr>
+    <hr>
+    <h2 class="header_container"><strong>========&nbsp;MP4J&nbsp;(v3.0)&nbsp;========</strong></h2>
     <div class="logo_container">
-      <
+      <div class="logo_subcontainer">
+        <img src="../assets/img//3.3_1.png" alt="version_3.3_img_1" class="logo_img" />
+        <img src="../assets/img//3.3_2.png" alt="version_3.3_img_2" class="logo_img" />
+        <div class="logo_subtext" title="Version 3.3 | Picture taken on ManjaroKDE">Version&nbsp;3.3</div>
+      </div>
+      <hr>
+      <div class="logo_subcontainer">
+        <img src="../assets/img//3.2_1.png" alt="version_3.2_img_1" class="logo_img" />
+        <div class="logo_subtext" title="Version 3.2 | Picture taken on Win32">Version&nbsp;3.2</div>
+      </div>
+      <hr>
+      <div class="logo_subcontainer">
+        <img src="../assets/img//3.1_1.png" alt="version_3.1_img_1" class="logo_img" />
+        <img src="../assets/img//3.1_2.png" alt="version_3.1_img_2" class="logo_img" />
+        <div class="logo_subtext" title="Version 3.1 | Picture taken on Win32">Version&nbsp;3.1</div>
+      </div>
+      <hr>
+      <p title="Where's 3.0?! 3.0 didn't have a GUI o_O">
+        Where's 3.0?!<br>
+        > 3.0 didn't have a GUI o_O
+      </p>
+      <button id="btn" onclick="windowToTop()" title="Top of page">~&nbsp;Top</button>
+      <script>
+        var btn = document.getElementById("btn");
+        window.onscroll = function () {
+          if (window.pageYOffset > 100 || document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+            btn.style.display = "block";
+          } else {
+            btn.style.display = "none";
+          }
+        }
+      </script>
+      <hr>
+      <footer>
+        Copyright (C) Jack Meng (exoad) 2022
+      </footer>
     </div>
-  </div>
 </body>
 
 </html>
