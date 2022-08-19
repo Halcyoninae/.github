@@ -40,10 +40,9 @@ body {
   background-image: url("../assets/img/my_bg_blurred.png");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position: center;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  background-position: center;
 }
 
 
@@ -52,7 +51,7 @@ body {
   height: 100%;
   background-color: rgba(33,
       37,
-      43, 0.75);
+      43, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,12 +61,11 @@ body {
 }
 
 .key_animation h1 {
-  overflow:auto;
+  overflow: hidden;
   border-right: 2.5px solid transparent;
   white-space: initial;
   cursor: pointer;
   margin: 0 auto;
-  overflow: hidden;
   letter-spacing: 4px;
   animation:
     blinker 0.45s steps(23);
@@ -75,12 +73,11 @@ body {
 
 .key_animation_sub h2 {
   color: #FFFF;
-  overflow: auto;
+  overflow: hidden;
   border-right: 1.5px solid transparent;
   white-space: nowrap;
   cursor: pointer;
   margin: 1 auto;
-  overflow: hidden;
   /*override*/
   letter-spacing: 2.5px;
   opacity: 0;
