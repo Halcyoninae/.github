@@ -6,7 +6,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [!] Alert: This is a WIP (Work In Progress)!
   - Almost everything about this project as a
-    the whole is WIP >3<
+    whole is WIP >3<
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ----------------------------------------------
 
@@ -45,12 +45,12 @@
             display, this program will run
             "normally".
   
-  Alert: The program itself uses around 35mB
+  NOTICE: The program itself uses around 35mB
   of memory on average, however the runtime
   will alloc more memory just in case, so 
   actual numbers may differ. It is your 
   jurisdiction to decide what amount is best,
-  however, it is best to not to go under the 
+  however, it is best not to go under the 
   following memory numbers.
   
   > Runtime Specifications <
