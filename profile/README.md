@@ -11,4 +11,6 @@ by Jack Meng.
 </pre></html>
 
 Website:
-https://halcyoninae.github.io/.github/
+https://halcyoninae.github.io/.github/<br>
+Documentation:
+https://halcyoninae.github.io/halcyon-docs/
