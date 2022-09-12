@@ -65,6 +65,7 @@ body {
   white-space: initial;
   cursor: pointer;
   margin: 0 auto;
+  overflow: hidden;
   letter-spacing: 4px;
   animation:
     blinker 0.45s steps(23);
@@ -72,6 +73,7 @@ body {
 
 .key_animation_sub h2 {
   color: #FFFF;
+  overflow: hidden;
   border-right: 1.5px solid transparent;
   white-space: nowrap;
   cursor: pointer;
