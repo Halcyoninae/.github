@@ -23,14 +23,27 @@
   guessed by the program.
   
   Currently, it supports playback of the
-  following file types:
-    1. MP3 (MP2 - MP1)
-    2. OGG (Vorbis, OPUS, Theora)
-    3. AIFF (Native)
-    4. AU (Native)
-   With partial support for:
-    1. AIFC (Native)
-    2. FLAC (Partial Native - OGG)
+  following file types:    
+      1. MP3
+      2. WAV
+      3. AIFF & AIFC* (partially tested)
+      4. OGG (Vorbis)
+      5. Theora
+      6. Flac
+      7. AU
+      8. MP2 & MP1 Layers
+  Hopefully to support:
+      1. AAC
+      2. M4A
+      3. WMA
+      4. RAW* (Configurable by user)
+      5. DSD
+      6. APE
+      7. ACC
+      8. MID & SNG
+      9. WAVPACK
+      10. TTA
+      11. MPC
 >
 
 ----------------------------------------------
