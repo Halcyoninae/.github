@@ -61,7 +61,6 @@ body {
 }
 
 .key_animation h1 {
-  overflow:auto;
   border-right: 2.5px solid transparent;
   white-space: initial;
   cursor: pointer;
@@ -73,7 +72,6 @@ body {
 
 .key_animation_sub h2 {
   color: #FFFF;
-  overflow: auto;
   border-right: 1.5px solid transparent;
   white-space: nowrap;
   cursor: pointer;
