@@ -75,8 +75,8 @@
       4. HotSpot
       5. Amazon Corretto
     - Runtime min. heap size: 47185920
-    - Runtime Min. Threads: 28 (HARDBOUND)
-    - Runtime Max. Threads: 20 (HARDBOUND)
+    - Runtime Min. Threads: 20 (HARDBOUND)
+    - Runtime Max. Threads: 28 (HARDBOUND)
   
   > Client System Specifications <
     - Host CPU: x86-64 or x86
@@ -87,7 +87,7 @@
         3. Linux (Linux Full)
     - Host Min. Memory: 100663296
     - Host Recommended Memory: 134217728
-    - Host Recommended Screen Res: 460x500
+    - Host Minimum Screen Res: 400x500
     - Host Network: Optional
     
   Addendum:
