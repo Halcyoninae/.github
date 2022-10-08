@@ -1,10 +1,8 @@
 <html><pre>
 ======= Halcyoninae =======
-This organization will be a 
-collection of every single
-project related to the 
-Halcyon Music Player made
-by Jack Meng.
+A collection of software
+that relate to the 
+Halcyon Project.
 ----------------------------
   Maintained by Jack Meng
 ----------------------------
