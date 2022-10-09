@@ -1,0 +1,110 @@
+=========== Halcyon - Music Player ===========
+<
+      A simplistic & robust music player.
+>
+==============================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[!] Alert: This is a WIP (Work In Progress)!
+  - Almost everything about this project as a
+    whole is WIP >3<
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
+
+[?] Halcyon? What? o_O
+<
+  Halcyon is a music player designed to be
+  lightweight & intuitive for the average
+  user, while being feature-rich to an avid
+  user.
+  Although it is written in Java & bridged
+  to native with C/C++, it features the 
+  utmost optimization pedantic that can be
+  either set by the user or automatically
+  guessed by the program.
+  
+  Currently, it supports playback of the
+  following file types:    
+      1. MP3
+      2. WAV
+      3. AIFF & AIFC* (partially tested)
+      4. OGG (Vorbis)
+      5. Theora
+      6. Flac
+      7. AU
+      8. MP2 & MP1 Layers
+  Hopefully to support:
+      1. AAC
+      2. M4A
+      3. WMA
+      4. RAW* (Configurable by user)
+      5. DSD
+      6. APE
+      7. ACC
+      8. MID & SNG
+      9. WAVPACK
+      10. TTA
+      11. MPC
+>
+
+----------------------------------------------
+
+[?] System Requirements >_<
+<
+  Note: MacOSX components have not been fully
+        tested.
+  
+  In Short: If you can run Java and have 
+            proper sound drivers and a
+            display, this program will run
+            "normally".
+  
+  NOTICE: The program itself uses around 35mB
+  of memory on average, however the runtime
+  will alloc more memory just in case, so 
+  actual numbers may differ. It is your 
+  jurisdiction to decide what amount is best,
+  however, it is best not to go under the 
+  following memory numbers.
+  
+  > Runtime Specifications <
+    - Runtime Minimum Version: 9 (SE)
+    - Runtime Optimized vendors:
+      1. GraalVM
+      2. Eclipse Temurin (AdoptOpenJDK)
+      3. JetBrains Runtime (JBR)
+      4. HotSpot
+      5. Amazon Corretto
+    - Runtime min. heap size: 47185920
+    - Runtime Min. Threads: 20 (HARDBOUND)
+    - Runtime Max. Threads: 28 (HARDBOUND)
+  
+  > Client System Specifications <
+    - Host CPU: x86-64 or x86
+    - Host GPU: Any (OpenGL)
+    - Host Operating System: 
+        1. MacOSX (Partial)
+        2. Windows (DOS Full)
+        3. Linux (Linux Full)
+    - Host Min. Memory: 100663296
+    - Host Recommended Memory: 134217728
+    - Host Minimum Screen Res: 400x500
+    - Host Network: Optional
+    
+  Addendum:
+    - Most distributions of the program will
+      include its own runtime (which the 
+      above specifications primarily targets).
+    - If you are using a vendor version that
+      uses the client's runtime, runtime
+      specs. will vary for your runtime 
+      vendor.
+>
+
+----------------------------------------------
+==============================================
+<
+          Made by Jack Meng (exoad)
+     Copyright (C) Jack Meng (exoad) 2021
+>
+==============================================
+

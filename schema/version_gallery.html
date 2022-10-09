@@ -1,0 +1,109 @@
+<!--
+  BSD 3-Clause License
+
+Copyright (c) 2022, Jack Meng
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Halcyon ~ Gallery</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+  <link rel="stylesheet" href="../styles/sub_page.css" />
+  <link rel="stylesheet" href="../styles/version_gallery.css" />
+</head>
+<script type="text/javascript" src="../scripts/main.js"></script>
+
+<body>
+  <div class="master_">
+    <div class="key_animation">
+      <a href="../index">
+        <h1 class="header_text"><strong>Halcyon</strong></h1>
+      </a>
+    </div>
+    <div class="key_animation_sub">
+      <h2 class="sub_header_text">Gallery</h2>
+    </div>
+    <hr>
+    <hr>
+    <div class="header_container"><strong>========&nbsp;MP4J&nbsp;(v3.0)&nbsp;(Halcyon&nbsp;Beta)========</strong></div>
+    <hr>
+    <hr>
+      <div class="logo_subcontainer">
+        <img src="../assets/img//3.4_1.png" alt="version_3.4.1_img_1" class="logo_img" />
+        <img src="../assets/img//3.4_1_2.png" alt="version_3.4.1_img_2" class="logo_img" />
+        <div class="logo_subtext" title="Version 3.4.1 | Picture taken on ManjaroKDE">Version&nbsp;3.4.1</div>
+      </div>
+      <hr>
+    <hr>
+    <div class="logo_container">
+      <div class="logo_subcontainer">
+        <img src="../assets/img//3.3_1.png" alt="version_3.3_img_1" class="logo_img" />
+        <img src="../assets/img//3.3_2.png" alt="version_3.3_img_2" class="logo_img" />
+        <div class="logo_subtext" title="Version 3.3 | Picture taken on ManjaroKDE">Version&nbsp;3.3</div>
+      </div>
+      <hr>
+      <div class="logo_subcontainer">
+        <img src="../assets/img//3.2_1.png" alt="version_3.2_img_1" class="logo_img" />
+        <div class="logo_subtext" title="Version 3.2 | Picture taken on Win32">Version&nbsp;3.2</div>
+      </div>
+      <hr>
+      <div class="logo_subcontainer">
+        <img src="../assets/img//3.1_1.png" alt="version_3.1_img_1" class="logo_img" />
+        <img src="../assets/img//3.1_2.png" alt="version_3.1_img_2" class="logo_img" />
+        <div class="logo_subtext" title="Version 3.1 | Picture taken on Win32">Version&nbsp;3.1</div>
+      </div>
+      <hr>
+
+      <p title="Where's 3.0?! 3.0 didn't have a GUI o_O">
+        Where's 3.0?!<br>
+        > 3.0 didn't have a GUI o_O
+      </p>
+      <button id="btn" onclick="windowToTop()" title="Top of page">~&nbsp;Top</button>
+      <script>
+        var btn = document.getElementById("btn");
+        window.onscroll = function () {
+          if (window.pageYOffset > 100 || document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+            btn.style.display = "block";
+          } else {
+            btn.style.display = "none";
+          }
+        }
+      </script>
+      <hr>
+      <footer>
+        Copyright (C) Jack Meng (exoad) 2022
+      </footer>
+    </div>
+</body>
+
+</html>
