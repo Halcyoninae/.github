@@ -35,7 +35,7 @@ body {
   width: 100%;
   align-self: center;
   font-family: 'Rancho';
-  background-image: url("../assets/img/my_bg_blurred.png");
+  background-color:  #282c34;;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
