@@ -111,7 +111,7 @@ body {
 
   from,
   to {
-    border-color: transparent
+    background-color: #9494949d;
   }
 }
 
