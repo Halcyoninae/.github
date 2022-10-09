@@ -41,7 +41,7 @@ body {
   font-family: 'Rancho';
   background-color: #282c34;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   width: 100%;
   height: 100%;
   background-position: center;
@@ -65,19 +65,35 @@ body {
 .key_animation h1 {
   border-right: 2.5px solid transparent;
   white-space: initial;
+  background: transparent;
   overflow: hidden;
   cursor: pointer;
   margin: 0 auto;
   overflow: hidden;
   letter-spacing: 4px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   animation:
     blinker 0.45s steps(23);
+}
+
+h1:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  transform: translateY(-10px) scale(1.2);
+}
+
+h2:hover {
+    -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      border-radius: 10px;
+      transform: translateY(-4px) scale(1.03);
 }
 
 .key_animation_sub h2 {
   color: #FFFF;
   overflow: hidden;
-  border-right: 1.5px solid transparent;
   white-space: nowrap;
   cursor: pointer;
   margin: 1 auto;
@@ -86,7 +102,7 @@ body {
   opacity: 0;
   animation:
     0.8s show_element_animation forwards,
-    blinker 0.45s steps(45);
+    blinker 0.45s steps(60);
   animation-delay: 450ms;
 }
 
@@ -110,9 +126,7 @@ body {
 @keyframes blinker-caret {
 
   from,
-  to {
-    background-color: #9494949d;
-  }
+  to {}
 }
 
 a {

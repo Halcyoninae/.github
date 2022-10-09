@@ -48,15 +48,6 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   background-color: #89EDA4;
   color: #282c34;
   box-shadow: 0px 10px 20px rgb(137, 237, 164, 0.4);
-  transition: all 0.6s;
+  transition: all 0.4s;
   transform: translateY(-5.5pX);
-}
-
-.link_tilde_ {
-  text-decoration: none;
-  color: #FFF;
-}
-
-.link_tilde_:hover {
-  color: #5F657D;
 }
