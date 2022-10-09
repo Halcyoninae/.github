@@ -35,7 +35,8 @@ body {
   width: 100%;
   align-self: center;
   font-family: 'Rancho';
-  background-color:  #282c34;;
+  background-color: #282c34;
+  ;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -171,14 +172,34 @@ p {
 
 .logo_img {
   border-radius: 15px;
-  opacity: 0.8;
+  opacity: 1;
   image-rendering: optimizeSpeed;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.logo_img:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-transform: scale(1.2) translateY(-15px);
+  -webkit-transform: scale(1.2) translateY(-15px);
+  transform: scale(1.15) translateY(-15px);
 }
 
 .logo_subtext {
   font-family: 'Space Mono', monospace;
   font-size: 15px;
   color: #FFFF;
+  text-shadow: 5px 8px rgba(23,
+      26,
+      31, 0.9);
   text-decoration: wavy;
 }
