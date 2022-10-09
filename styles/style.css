@@ -85,10 +85,10 @@ h1:hover {
 }
 
 h2:hover {
-    -webkit-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-      border-radius: 10px;
-      transform: translateY(-4px) scale(1.03);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  transform: translateY(-4px) scale(1.03);
 }
 
 .key_animation_sub h2 {
@@ -100,6 +100,8 @@ h2:hover {
   /*override*/
   letter-spacing: 2.5px;
   opacity: 0;
+  transition: all 0.5s ease;
+  border-radius: 10px;
   animation:
     0.8s show_element_animation forwards,
     blinker 0.45s steps(60);
