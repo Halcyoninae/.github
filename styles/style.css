@@ -74,14 +74,26 @@ body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   animation:
-    blinker 0.45s steps(23);
+    blinker 0.45s steps(23) bruh 5s cubic-bezier(.83,.32,.52,.81) infinite alternate;
 }
 
-h1:hover {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  border-radius: 10px;
-  transform: translateY(-10px) scale(1.2);
+@keyframes bruh {
+  0% {
+    transform: rotate(0%) scale(1);
+    text-shadow: 0px 0px 0px;
+  }
+  20%, 90% {
+    transform: rotate(-15deg) scale(1);
+    text-shadow: 0px 0px 20px rgba(137, 237, 164, 0.7)
+  }
+  35% {
+    text-shadow: 0px 0px 0px;
+  }
+  50%, 70% {
+    transform: rotate(15deg) scale(1);
+    color: #edbc85;
+    text-shadow: 0px 0px 20px rgba(237, 188, 133, 0.7);
+  }
 }
 
 h2:hover {
