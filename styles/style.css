@@ -25,14 +25,14 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 html {
   min-height: 100%;
   height: 100%;
-  accent-color: #89EDA4;
+  accent-color: #61ff76;
   background: -apple-system-control-accent;
 }
 
 body {
   text-align: center;
   height: calc(100vh - 8em);
-  color: #89EDA4;
+  color: #61ff76;
   align-content: center;
   align-items: center;
   display: flex;
@@ -145,12 +145,12 @@ h2:hover {
 }
 
 a {
-  color: #89EDA4;
+  color: #61ff76;
   text-decoration: none;
 }
 
 a:visited {
-  color: #89EDA4;
+  color: #61ff76;
   text-decoration: none;
 }
 

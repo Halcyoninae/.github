@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  color: #89EDA4;
+  color: #61ff76;
   display: flex;
   margin: 0;
   height: 100%;
@@ -124,12 +124,12 @@ footer {
 }
 
 a {
-  color: #89EDA4;
+  color: #61ff76;
   text-decoration: none;
 }
 
 a:visited {
-  color: #89EDA4;
+  color: #61ff76;
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ h2 {
 p {
   font-family: 'Space Mono';
   font-size: 0.75em;
-  color: #89EDA4;
+  color: #61ff76;
   text-align: center;
 }
 
