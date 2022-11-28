@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  color: #61ff76;
+  color: #89eda4;
   display: flex;
   margin: 0;
   align-self: center;
@@ -118,12 +118,12 @@ hr {
 }
 
 a {
-  color: #61ff76;
+  color: #89eda4;
   text-decoration: none;
 }
 
 a:visited {
-  color: #61ff76;
+  color: #89eda4;
   text-decoration: none;
 }
 
