@@ -11,7 +11,9 @@ If you have further inquiries, you can find exoad here:
   <summary>
   <strong>Halcyon</strong> - Music Player
   </summary>
-* Website - https://halcyoninae.github.io/.github/<br>
-* Documentation - https://halcyoninae.github.io/halcyon-docs/
+<ul>
+  <li>Website - https://halcyoninae.github.io/.github/<br></li>
+  <li>Documentation - https://halcyoninae.github.io/halcyon-docs/</li>
+</ul>
 </details>
 
